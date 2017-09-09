@@ -19,9 +19,9 @@ In this demo, I create VM on Azure with following configuration:
  	* Default: Deny all connection from all port
  	* Rule 0: Allow ssh from anyone to port 22
 
- Lets test this
+ Lets start!
 
- 	1. clone this repo
+ 	1. Clone this repo
 
  	2. Install [terraform](https://www.terraform.io/downloads.html)
 
