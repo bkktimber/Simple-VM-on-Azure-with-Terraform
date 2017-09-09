@@ -25,7 +25,7 @@ In this demo, I create VM on Azure with following configuration:
 
  2. Install [terraform](https://www.terraform.io/downloads.html)
 
- 3. Run `terraform init` in \simple-vm 
+ 3. Run `terraform init` in simple-vm directory 
 
  4. Config subscription detail in subscrition.tfvars
 
@@ -36,7 +36,7 @@ In this demo, I create VM on Azure with following configuration:
 
 	Terraform will summary your deplyment. It will look like this:
 
-		![terraform-plan](..\pic\terraform-plan.png)
+		![terraform-plan](/pic/terraform-plan.png?raw=true "terraform-plan")
 	
 6. Everthing looks great?, then run this to deploy your plan:
 
@@ -46,7 +46,7 @@ In this demo, I create VM on Azure with following configuration:
 
 	It will look like this:
 
-		![terraform-apply](..\pic\terraform-apply.png)
+		![terraform-apply](/pic/terraform-apply.png?raw=true "terraform-apply")
 
 7. Take a look in your portal and see if everthing work correctly.
 	
@@ -54,7 +54,7 @@ In this demo, I create VM on Azure with following configuration:
 
 	I've made example here:
 
-		![terraform-graph](..\pic\simple.png)
+		![terraform-graph](\pic\simple-vm.png?raw=true "simple-vm-graph")
 
 9. The last step is to delete everthing. Run this:
 
