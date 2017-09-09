@@ -1,4 +1,4 @@
-# H1 Make Simple VM with Terraform
+#Make Simple VM with Terraform
 
 In this example, I create simple VM with [Terraform](https://www.terraform.io/).
 
