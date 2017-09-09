@@ -54,7 +54,7 @@ In this demo, I create VM on Azure with following configuration:
 
 	I've made example here:
 
-![terraform-graph](\pic\simple-vm.png?raw=true "simple-vm-graph")
+![terraform-graph](/pic/simple-vm.png?raw=true "simple-vm-graph")
 
 9. The last step is to delete everthing. Run this:
 
