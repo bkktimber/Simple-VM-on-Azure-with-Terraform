@@ -19,12 +19,16 @@ In this demo, I create VM on Azure with following configuration:
  	* Default: Deny all connection from all port
  	* Rule 0: Allow ssh from anyone to port 22
 
- Lets test this :
+ Lets test this
 
  	1. clone this repo
+
  	2. Install [terraform](https://www.terraform.io/downloads.html)
+
  	3. Run `terraform init` in \simple-vm 
+
  	4. Config subscription detail in subscrition.tfvars
+
  	5. Run
 
 	 	 `terraform plan -var-file=subscription.tfvars \
@@ -45,6 +49,7 @@ In this demo, I create VM on Azure with following configuration:
 			![terraform-apply](..\pic\terraform-apply.png)
 
 	7. Take a look in your portal and see if everthing work correctly.
+	
 	8. You can also make graph with terraform with `terraform graph`. The output is VizGraph, so you will need [dot](http://www.graphviz.org/) This is very useful for debug.
 
 		I make example here:
