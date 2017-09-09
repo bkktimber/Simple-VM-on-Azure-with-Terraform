@@ -31,7 +31,7 @@ In this demo, I create VM on Azure with following configuration:
 
  5. Run
 
- 	 `terraform plan -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
+	 	 `terraform plan -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
 
 	Terraform will summary your deplyment. It will look like this:
 
@@ -39,7 +39,7 @@ In this demo, I create VM on Azure with following configuration:
 	
 6. Everthing looks great?, then run this to deploy your plan:
 
-	`terraform apply -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
+		`terraform apply -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
 
 	It will look like this:
 
@@ -55,6 +55,6 @@ In this demo, I create VM on Azure with following configuration:
 
 9. The last step is to delete everthing. Run this:
 
-	`terraform destroy -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
+		`terraform destroy -var-file=subscription.tfvars -var-file=resource-group.tfvars -var-file=network-parameter.tfvars -var-file=storage-account.tfvars -var-file=vm.tfvars`
 
 	Don't forget to double check in your azure portal!
